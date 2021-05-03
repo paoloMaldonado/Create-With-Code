@@ -204,6 +204,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 538771293}
+  - component: {fileID: 538771294}
   m_Layer: 0
   m_Name: Focal Point
   m_TagString: Untagged
@@ -226,6 +227,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &538771294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538771292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52911d91147d4e648ab3515ad88816b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 50
 --- !u!1 &1071866473
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,6 +253,7 @@ GameObject:
   - component: {fileID: 1071866476}
   - component: {fileID: 1071866475}
   - component: {fileID: 1071866474}
+  - component: {fileID: 1071866479}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -336,6 +351,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1071866479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071866473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dc6a10e254f03443a4e5ed33d8a7802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &1211016355
 GameObject:
   m_ObjectHideFlags: 0
